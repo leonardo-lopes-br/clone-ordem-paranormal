@@ -1,0 +1,211 @@
+@media screen and (max-width: 768px) {
+        
+    body {
+        width: 100vw;
+    }
+
+    .header {
+        position: static;
+        width: 100%;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    
+
+    .navigation-logo-image {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        width: 17rem;
+        height: 6.2rem;
+    }
+
+    .navigation-list {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navigation-list-item {
+        margin: 0;
+        width: 100%;
+        padding: 1.3rem;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    .navigation-list-item:last-child {
+        margin-bottom: 3rem;
+    }
+
+    .link-home-page {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .navigation-link {
+        font-size: 1.5rem;
+    }
+
+    .navigation-link:hover {
+        color: var(--text-normal-color);
+    }
+
+    .navigation-list-item:hover {
+        background-color: #9B712D;
+    }
+
+    .main {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .section {
+        margin: 0;
+    }
+
+    .section-title {
+        margin-top: 3rem;
+        margin: 5rem 0.5rem 3rem 0.5rem;
+    }
+
+    .about-universe-article {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .about-universe-image {
+        width: 20rem;
+        height: 20rem;
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .about-universe-paragraph {
+        padding: 0 1.35rem;
+        font-size: 0.85rem;
+        line-height: 2;
+    }
+
+    .universe-branches-article {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .universe-branches-figure {
+        width: 100%;
+    }
+
+    figcaption {
+        padding: 1rem 0;
+    }
+
+    .rpg-campain-article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-description {
+        margin: 2rem 0;
+        padding: 0 1.3rem;
+    }
+
+
+    .media-phrase-paragraph {
+        padding: 0.8rem 0.8rem;
+        line-height: 1.4;
+    }
+
+    .creator-article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .text-creator-article {
+        width: 100%;
+    }
+
+    .subtitle-team-section {
+        text-align: center;
+    }
+
+    .creator-article-paragraph {
+        padding: 1.3rem;
+        font-size: 0.85rem;
+    }
+
+    .social-media-creator-article {
+        width: 100%;
+    }
+
+    .social-media-icons-list {
+        margin-bottom: 3rem;
+    }
+
+    .team-columns {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-team-list .team-member-item:last-child {
+        margin-bottom: 5rem;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .subscribe-article {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .title-subscribe-section {
+        text-align: center;
+    }
+
+    .subscribe-paragraph {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+
+    .email-field-input {
+        padding: 0 0 0 0.8rem;
+    }
+
+
+    .subscribe-email-form {
+        margin: 0 0.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .paragraph-footer {
+        margin-bottom: 2.4rem;
+    }
+
+    .footer-social-media-list {
+        justify-content: center;
+    }
+
+
+}

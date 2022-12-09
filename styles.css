@@ -196,6 +196,10 @@ figcaption {
     padding: 0.8rem 0;
 }
 
+em {
+    font-style: italic;
+}
+
 .media-phrase-link {
     text-decoration: none;
     color: var(--text-normal-color);
@@ -250,7 +254,7 @@ figcaption {
 /*Keyframes servem para aplicar uma animação a algum elemento*/
 @keyframes go-back {
     from {
-      transform: translateY(-5rem);
+      transform: translateY(-6rem);
     }
     to {
       transform: translateY(0);
