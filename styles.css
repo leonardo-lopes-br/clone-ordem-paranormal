@@ -38,6 +38,7 @@ strong {
     width: 14rem;
     height: 5.74rem;
     margin-right: 0.9rem;
+    animation: go-back 1.5s;
 }
 
 .navigation-list {
@@ -235,13 +236,158 @@ figcaption {
     background-position: center;
 }
 
-.social-medias-icons {
+.social-media-icons-list {
     display: flex;
+    justify-content: center;
 }
 
 .social-media-icon {
     width: 1.5rem;
     height: 1.5rem;
-    padding: 2rem 3rem 0 0;
+    padding: 2rem 2rem 0 0;
+}
+
+/*Keyframes servem para aplicar uma animação a algum elemento*/
+@keyframes go-back {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+
+
+.team-columns {
+    display: flex;
+    text-align: left;
+}
+
+.art-team {
+    width: 100%;
+}
+
+.other-teams {
+    width: 100%;
+}
+
+.subtitle-team-function {
+    color: var(--text-normal-color);
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.team-member-item {
+    padding: 0.5rem 0;
+}
+
+.team-member-link {
+    text-decoration: none;
+    color: #bbbb;
+}
+
+.instagram-logo-members, .twitter-logo-members {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.subscribe-article {
+    display: flex;
+}
+
+.subscribe-text-div {
+    width: 100%;
+    text-align: left;
+}
+
+.subscribe-email-form {
+    width: 100%;
+    text-align: left;
+}
+
+.title-subscribe-section {
+    text-align: left;
+    margin-bottom: 0.9rem;
+}
+
+.email-field-input {
     display: block;
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0.8rem;
+    border: solid 1px #bbbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: var(--text-normal-color);
+}
+
+.email-field-input:focus {
+    font-weight: 400;
+}
+
+.checkbox-input {
+    margin: 1rem 0;
+}
+
+.checkbox-label {
+    color: #bbbb;
+}
+
+
+.email-submit-button {
+    display: block;
+    width: 100%;
+    background-color: #FFBC4F;
+    height: 2.8rem;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.email-submit-button:hover {
+    background-color: #9B712D;
+    cursor: pointer;
+}
+
+.figure-footer-image {
+    width: 14rem;
+    height: 5.74rem;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 7.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.figure-footer {
+    width: 100%;
+
+}
+
+.paragraph-footer {
+    margin-top: 1.1rem;
+}
+
+.footer-social-media-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon-image {
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0rem 2.5rem 0 0;
 }
