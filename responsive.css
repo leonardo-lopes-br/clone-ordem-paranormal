@@ -1,7 +1,11 @@
 @media screen and (max-width: 768px) {
-        
+    
+    * {
+        box-sizing: border-box;
+    }
+   
     body {
-        width: 100vw;
+        max-width: 100vw;
     }
 
     .header {
@@ -24,7 +28,7 @@
         margin-left: auto;
         margin-top: 4rem;
         margin-bottom: 1rem;
-        width: 17rem;
+        width: 100%;
         height: 6.2rem;
     }
 
@@ -44,7 +48,7 @@
     }
 
     .navigation-list-item:last-child {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .link-home-page {
@@ -111,13 +115,15 @@
     }
 
     figcaption {
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     .rpg-campain-article {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
+    
 
     .card-description {
         margin: 2rem 0;
@@ -160,6 +166,7 @@
     .team-columns {
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     .social-media-team-list .team-member-item:last-child {
@@ -185,18 +192,17 @@
         font-size: 0.85rem;
     }
 
-    .email-field-input {
-        padding: 0 0 0 0.8rem;
-    }
-
 
     .subscribe-email-form {
         margin: 0 0.5rem;
+        max-width: calc(100vw - 2rem);
     }
 
     footer {
         flex-direction: column;
         width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .paragraph-footer {
