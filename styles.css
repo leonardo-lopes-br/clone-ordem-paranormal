@@ -182,6 +182,9 @@ figcaption {
     background-color: #9B712D;
 }
 
+.card-description {
+    padding: 1rem;
+}
 
 
 .sbt-icon {
