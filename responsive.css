@@ -11,6 +11,7 @@
     .header {
         position: static;
         width: 100%;
+        height: 100vh;
     }
 
     .navigation {
@@ -21,7 +22,10 @@
         width: 100%;
     }
 
-    
+    .navigation-link-logo-image {
+        display: block;
+        height: 100%;
+    }
 
     .navigation-logo-image {
         margin-right: auto;
@@ -54,6 +58,8 @@
     .link-home-page {
         font-size: 1.3rem;
         text-align: center;
+        display: block;
+        width: 100%;
     }
 
     .navigation-link {
@@ -196,6 +202,10 @@
     .subscribe-email-form {
         margin: 0 0.5rem;
         max-width: calc(100vw - 2rem);
+    }
+
+    .checkbox-input-and-label {
+        margin-bottom: 1rem;
     }
 
     footer {
